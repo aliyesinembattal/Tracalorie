@@ -1,0 +1,54 @@
+/* Remove Arrow / Spinner */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+body {
+  font-family: "Reggae One", cursive;
+  background-color: #546e7a;
+}
+
+.btn {
+  font-family: "Reggae One", cursive;
+}
+
+.card {
+  background-color: #eceff1 !important;
+}
+
+.brand-logo {
+  padding-right: 80px !important;
+}
+
+.clear-btn {
+  margin-left: 100px !important;
+  margin-right: 0px !important;
+}
+
+.update-btn {
+  margin-right: 10px;
+}
+
+.food-icon {
+  font-size: 40px;
+  color: #263238;
+  line-height: 56px;
+}
+
+h3 {
+  color: #84cbf1;
+}
+
+.card-title {
+  color: #1d3442 !important;
+}
+
+.fas {
+  color: #1d3442;
+}
